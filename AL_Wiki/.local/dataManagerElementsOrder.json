@@ -1,0 +1,93 @@
+{
+  "Workflows": [
+    {
+      "Path": null,
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": null,
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Main.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "mainDT&StateMachine_1",
+        "Browser&StateMachine_1",
+        "SystemException&StateMachine_1",
+        "Config&StateMachine_1",
+        "ShouldStop&Sequence_25"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_OrchestratorQueueName",
+        "in_OrchestratorQueueFolder"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Framework/InitAllSettings.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "dt_SettingsAndConstants&Sequence_5",
+        "dt_Assets&Sequence_6",
+        "AssetValue&Sequence_11"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_ConfigFile",
+        "in_ConfigSheets",
+        "out_Config"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Framework/InitAllApplications.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "Browser&Sequence_1"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "Browser_In"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Framework/GetData.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "mainDT&Sequence_1",
+        "tempDT&Sequence_12",
+        "ExtractDataTable&Sequence_14",
+        "temp_id&Sequence_12",
+        "tables&Sequence_7",
+        "temp_id&Sequence_10",
+        "tag&Sequence_9",
+        "children&Sequence_7",
+        "tables&Sequence_2",
+        "className&Sequence_2",
+        "tag&Sequence_3",
+        "elems&Sequence_2"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "DT_In",
+        "Browser_In"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Framework/Process.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": [
+        "Browser_In",
+        "DT_In",
+        "in_Config"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    }
+  ]
+}
